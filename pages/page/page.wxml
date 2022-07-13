@@ -1,0 +1,2 @@
+<view>{{message}}</view>
+<button type="primary" bind:tap="updateMessage"> 更新数据</button>

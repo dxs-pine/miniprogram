@@ -1,0 +1,40 @@
+<view> hello world</view>
+<view> 你好，小程序</view>
+<view>
+  <text>123</text>
+  <text>123</text>
+</view>
+<view>
+  <image src="../../assets/157a35dd41cdf1f965a6f209443fa1a.jpg"></image>
+</view>
+<navigator url="../logs/logs">跳转到logs页面</navigator>
+<input type="text" class="inputTest"/>
+<button>测试按钮</button>
+<button type="warn">测试按钮</button>
+<button type="primary">测试按钮</button>
+<!-- 
+  autoplay 自动轮播
+  interval 设置多少毫秒切换
+  circular 循环轮播
+  indicator-dots 指示点
+ -->
+<swiper autoplay="true" interval="1000" circular="true" indicator-dots="true">
+  <swiper-item>
+    <image src="../../assets/157a35dd41cdf1f965a6f209443fa1a.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../assets/157a35dd41cdf1f965a6f209443fa1a.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../assets/157a35dd41cdf1f965a6f209443fa1a.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../assets/157a35dd41cdf1f965a6f209443fa1a.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<view class="box1">使用百分比</view>
+<view class="box2">使用rpx</view>
+<view class="box3">使用px</view>
+
+<view style="width: 700rpx; height: 3000rpx; background: pink;">一个很高的盒子</view>

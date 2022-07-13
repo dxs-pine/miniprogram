@@ -1,0 +1,5 @@
+<view>request页面</view>
+<button type="primary" bind:tap="getHotMovie">获取热门电影</button>
+<view>
+  <view wx:for="{{hot}}" wx:key="id">{{item.nm}}</view>
+</view>

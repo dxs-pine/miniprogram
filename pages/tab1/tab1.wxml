@@ -1,0 +1,4 @@
+<!--pages/tab1/tab1.wxml-->
+<text>pages/tab1/tab1.wxml</text>
+
+<view style="width: 700rpx; height: 3000rpx; background: pink;">一个很高的盒1子</view>
